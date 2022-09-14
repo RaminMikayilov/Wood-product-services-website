@@ -1,0 +1,28 @@
+.work {
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+
+    .swiper {
+        width: 75%;
+        height: fit-content;
+
+        img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            aspect-ratio: 16 / 9;
+            border-radius: 20px;
+        }
+
+        &-button-prev,
+        &-button-next {
+            color: #fff;
+        }
+
+        &-pagination-bullet-active {
+            background: #fff;
+        }
+    }
+}

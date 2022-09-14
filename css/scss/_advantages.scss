@@ -1,0 +1,48 @@
+.advantages {
+    padding: 5rem 0;
+    color: #f5f5f5;
+
+    .title {
+        padding-left: 0;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &-body {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        .image {
+            overflow: hidden;
+            width: 65vw;
+    
+            img {
+                display: block;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+                aspect-ratio: 16 / 9;
+                border-radius: 40px;
+            }
+        }
+
+        .text {
+            padding-top: 1rem;
+            padding-left: 4rem;
+
+            p {
+                margin-bottom: 2.5rem;
+                font-weight: 500;
+                font-size: 1.7rem;
+                line-height: 130.4%;
+            }
+        }
+    }
+
+}

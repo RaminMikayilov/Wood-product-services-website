@@ -1,0 +1,759 @@
+$desktop: 1200px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+
+@media (max-width: $desktop) {
+    .title {
+        font-size: 4.5rem;
+        line-height: 113%;
+        padding-left: 17%;
+        padding-bottom: 1.4rem;
+    }
+
+    // Header
+    .header {
+
+        // Main screen
+        &__main-screen {
+
+            &--body {
+
+                p {
+                    font-size: 1.8rem;
+                    line-height: 2.3rem;
+                }
+            }
+
+            &--line {
+                height: 460px;
+            }
+
+            &--img {
+
+                img {
+                    width: 160px;
+                    height: 160px;
+                }
+
+
+            }
+        }
+
+    }
+
+    //Wood
+    .wood {
+        &-row {
+            .wood-col {
+                img {
+                    width: 160px;
+                    height: 160px;
+                }
+            }
+        }
+    }
+
+    //Work
+    .work {
+        padding: 4rem 0;
+
+        .swiper {
+            width: 79%;
+        }
+    }
+
+    //Advantages
+    .advantages {
+        &-body {
+            .text {
+                p {
+                    margin-bottom: 2.2rem;
+                    font-size: 1.5rem;
+                    line-height: 120.4%;
+                }
+            }
+        }
+
+    }
+
+    // About
+    .about {
+        height: 90vh;
+        margin-top: 4rem;
+
+        &__main {
+            height: 75vh;
+
+            &-body {
+                padding-left: 8vw;
+                padding-right: 4rem;
+                width: 63%;
+
+                p {
+                    font-weight: 500;
+                    font-size: 1.8rem;
+                    line-height: 135.4%;
+                }
+            }
+
+            &-image {
+                width: 35%;
+
+                img {
+
+                    &:first-child {
+                        width: 150px;
+                        height: 150px;
+                    }
+
+                    &:nth-child(2) {
+                        width: 210px;
+                        height: 210px;
+                    }
+
+                    &:last-child {
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+
+    //Question
+    .question {
+
+        &__body {
+            &-form {
+                width: 60%;
+
+                input,
+                textarea {
+                    font-size: 1.6rem;
+                }
+            }
+
+            &-text {
+                width: 40%;
+                padding-left: 1rem;
+                font-size: 1.6rem;
+                line-height: 136.4%;
+
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: $laptop) {
+    .title {
+        font-size: 3.5rem;
+        line-height: 110%;
+        padding-left: 12%;
+        padding-bottom: 1.2rem;
+    }
+
+    // Header
+    .header {
+
+        // Main screen
+        &__main-screen {
+
+            &--body {
+
+                p {
+                    font-size: 1.6rem;
+                    line-height: 2.1rem;
+                }
+            }
+
+            &--line {
+                height: 400px;
+            }
+
+            &--img {
+
+                img {
+                    width: 130px;
+                    height: 130px;
+                    border-radius: 30px;
+                }
+
+
+            }
+        }
+
+    }
+
+    //Wood
+    .wood {
+        height: 85vh;
+
+        &-row {
+            .wood-col {
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+
+    //Work
+    .work {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+
+        .swiper {
+            width: 83%;
+        }
+    }
+
+    //Advantages
+    .advantages {
+        &-body {
+            .image {
+                width: 70vw;
+            }
+
+            .text {
+                p {
+                    margin-bottom: 1.5rem;
+                    font-size: 1.3rem;
+                    line-height: 115%;
+                }
+            }
+        }
+
+    }
+
+    // About
+    .about {
+        margin-top: 3rem;
+
+        &__main {
+            height: 70vh;
+
+            &-body {
+                padding-left: 6vw;
+                padding-right: 3.5rem;
+
+                p {
+                    font-weight: 400;
+                    font-size: 1.6rem;
+                    line-height: 115.4%;
+                }
+            }
+
+            &-image {
+                img {
+
+                    &:first-child {
+                        width: 130px;
+                        height: 130px;
+                    }
+
+                    &:nth-child(2) {
+                        width: 180px;
+                        height: 180px;
+                    }
+
+                    &:last-child {
+                        width: 130px;
+                        height: 130px;
+                    }
+                }
+            }
+        }
+    }
+
+    //Question
+    .question {
+
+        &__body {
+            &-form {
+
+                input,
+                textarea {
+                    font-size: 1.4rem;
+                }
+            }
+
+            &-text {
+                font-size: 1.4rem;
+                line-height: 126.4%;
+
+                img {
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    //Footer
+    .footer {
+        font-size: 1.5rem;
+    }
+    // Error
+    .error {
+      p {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media (max-width: $tablet) {
+    .title {
+        font-size: 3rem;
+        line-height: 105%;
+        padding-left: 10%;
+        padding-bottom: 1rem;
+    }
+
+    //Header
+    .header {
+
+        //Navbar
+        nav {
+            .navbar {
+                height: 70px;
+                display: block;
+
+                &-header {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 1rem;
+
+                    .button {
+                        display: block;
+                    }
+                }
+
+                .links {
+                    display: block;
+                    height: 0;
+                    overflow: hidden;
+                    transition: all .3s ease-in-out;
+
+                    li {
+                        a {
+                            padding: 0.5rem 1rem;
+                            display: block;
+                            transition: all 0.3s ease-in-out;
+
+                            &::after {
+                                display: none;
+                            }
+
+                            &:hover {
+                                padding-left: 1.5rem;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .show {
+                height: 16rem !important;
+            }
+
+        }
+
+
+        // Main screen
+        &__main-screen {
+            flex-direction: column;
+            justify-content: space-between;
+            height: 70vh;
+
+            &--body {
+                width: 100%;
+                height: 47%;
+            }
+
+            &--line {
+                display: none;
+            }
+
+            &--img {
+                width: 100%;
+                height: 47%;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 25px;
+
+                    &:first-child {
+                        top: 0;
+                        right: 1rem;
+                    }
+
+                    &:nth-child(2) {
+                        top: 40%;
+                        left: 0;
+                    }
+
+                    &:last-child {
+                        bottom: 0;
+                        right: 20%;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    //Wood
+    .wood {
+        height: 85vh;
+
+        &-row {
+            .wood-col {
+                img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+
+    //Work
+    .work {
+        .swiper {
+            width: 85%;
+        }
+    }
+
+    // Advantages
+    .advantages {
+        padding: 5rem 0;
+
+        .title {
+            padding-bottom: 1rem;
+        }
+
+        &-body {
+            flex-direction: column;
+            margin-bottom: 0;
+
+            .image {
+                order: 2;
+                width: 85vw;
+                margin: 0 auto;
+            }
+
+            .text {
+                order: 1;
+                padding-top: 1rem;
+                padding-left: 0;
+
+                p {
+                    margin-bottom: 1.5rem;
+                    font-weight: 400;
+                    font-size: 1.3rem;
+                    line-height: 110.4%;
+                    text-align: left;
+                }
+            }
+        }
+
+    }
+
+    // About
+    .about {
+        margin-top: 2rem;
+    
+        &__main {
+            height: 80vh;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            &-body {
+                padding-left: 6vw;
+                padding-right: 5rem;
+                width: 100%;
+    
+                p {
+                    font-size: 1.4rem;
+                    line-height: 118%;
+                }
+            }
+    
+            &-image {
+                width: 100%;
+                height: 60%;
+    
+                img {
+                    border-radius: 37px;
+                    padding: 1rem;
+    
+                    &:first-child {
+                        width: 140px;
+                        height: 140px;
+                    }
+    
+                    &:nth-child(2) {
+                        width: 170px;
+                        border: none;
+                        height: 170px;
+                    }
+    
+                    &:last-child {
+                        width: 140px;
+                        height: 140px;
+                    }
+                }
+            }
+        }
+    }
+
+    // Question
+    .question {
+        padding-bottom: 3rem;
+    
+        .title {
+            text-align: left;
+            padding: 1.5rem 0;
+        }
+    
+        &__body {
+            flex-direction: column;
+    
+            &-form {
+                width: 100%;
+                order: 2;
+    
+                input,
+                textarea {
+                    font-weight: 400;
+                    font-size: 1.2rem;
+                }
+            }
+    
+            &-text {
+                order: 1;
+                width: 100%;
+                font-size: 1.4rem;
+                line-height: 119.4%;
+                text-align: left;
+                padding-bottom: 1rem;
+                    
+                img {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    // Footer
+    .footer {
+        padding: 2rem 0;
+        font-size: 1.5rem;
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-phone {
+            margin: 1.5rem 0;
+        }
+    }
+
+    //Price
+    .price {
+        &-img {
+            width: 85%;
+        }
+    }
+
+    // Contact
+    .contact {
+        margin: 3rem 0;
+        flex-direction: column;
+        align-items:  center;
+    
+        &__left {
+            width: 100%;
+    
+            .phone, .location {
+                font-size: 1.6rem;
+                margin-top: 1.6rem;
+            }
+        }
+    
+        &__right {
+            width: 80%;
+            margin-top: 2rem;
+        }
+    
+    }
+
+    // Error
+    .error {
+        p {
+              font-size: 2rem;
+          }
+      }
+}
+
+@media (max-width: $phone) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    // Header
+    .header {
+        nav {
+            border-radius: 0 0 60px 60px;
+        }
+
+        &__main-screen {
+            border-radius: 16px 0 0 16px;
+            padding: 2rem 1.5rem 1.5rem;
+    
+            &--body {
+    
+                p {
+                    font-size: 1.2rem;
+                    line-height: 2rem;
+                }
+
+                button {
+                    margin-top: 25px;
+                }
+            }
+    
+            &--img {
+
+                img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 20px;
+    
+                    &:first-child {
+                        top: 0;
+                        right: 1rem;
+                    }
+    
+                    &:nth-child(2) {
+                        top: 40%;
+                        left: 0;
+                    }
+    
+                    &:last-child {
+                        bottom: 0;
+                        right: 1rem;
+                    }
+                }
+    
+    
+            }
+        }
+    }
+
+    // Wood
+    .wood {
+        height: 170vh;
+        
+    
+        &-row {
+           flex-direction: column;
+           align-items: center;
+    
+            .wood-col {
+                padding: 2rem 0;
+    
+                img {
+                    width: 180px;
+                    height: 180px;
+                    border-radius: 40px;
+                }
+            }
+        }
+    }
+
+    //Work
+    .work {
+        .swiper {
+            width: 88%;
+        }
+    }
+
+    // Advantages
+    .advantages {      
+        &-body {       
+            .text {
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+    }
+
+    // About
+    .about {
+    
+        &__main {
+          
+            &-body {
+                padding-left: 5vw;
+                padding-right: 4rem;
+           
+                p {
+                    font-size: 1.3rem;
+                    line-height: 117%;
+                }
+            }
+    
+            &-image {
+                width: 100%;
+                height: 60%;
+    
+                img {
+                    border-radius: 34px;
+                    padding: 1rem;
+    
+                    &:first-child {
+                        width: 115px;
+                        height: 115px;
+                    }
+    
+                    &:nth-child(2) {
+                        width: 130px;
+                        height: 130px;
+                    }
+    
+                    &:last-child {
+                        width: 115px;
+                        height: 115px;
+                    }
+                }
+            }
+        }
+    }
+
+    //Price
+    .price {
+        &-img {
+            width: 90%;
+        }
+    }
+
+    // Error
+    .error {
+        p {
+              font-size: 1.6rem;
+          }
+      }
+}
