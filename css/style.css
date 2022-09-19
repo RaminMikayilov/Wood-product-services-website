@@ -436,7 +436,8 @@ body {
 .contact__left {
   width: 50%;
 }
-.contact__left .phone, .contact__left .location {
+.contact__left .phone,
+.contact__left .location {
   font-size: 2rem;
   margin-top: 2rem;
 }
@@ -445,6 +446,7 @@ body {
 }
 .contact__right img {
   width: 100%;
+  cursor: pointer;
 }
 
 .error {

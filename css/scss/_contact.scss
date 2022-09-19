@@ -6,7 +6,8 @@
     &__left {
         width: 50%;
 
-        .phone, .location {
+        .phone,
+        .location {
             font-size: 2rem;
             margin-top: 2rem;
         }
@@ -17,6 +18,7 @@
 
         img {
             width: 100%;
+            cursor: pointer;
         }
     }
 
